@@ -39,6 +39,6 @@ class CountryCodeFetcherTest extends Specification {
 
         then:
         def ex = thrown(RuntimeException)
-        ex.message == 'Unable to fetch country phone numbers table'
+        ex.message == 'Unable to fetch country codes table'
     }
 }

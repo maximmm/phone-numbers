@@ -53,7 +53,7 @@ public class CountryCodeFetcher {
     }
 
     private Supplier<RuntimeException> unableToFetchTable() {
-        return () -> new RuntimeException("Unable to fetch country phone numbers table");
+        return () -> new RuntimeException("Unable to fetch country codes table");
     }
 
     private String columnValue(Elements cols, int countryColumnIdx) {

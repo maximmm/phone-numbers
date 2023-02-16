@@ -26,6 +26,6 @@ function resolveCountry() {
 }
 
 function isValidPhoneNumberFormat(phoneNumber) {
-  var regex = /^[\+]?[0-9]*$/;
+  var regex = /^[\+]?[ \(\)\-\d]*$/;
   return regex.test(phoneNumber);
 }
